@@ -1,0 +1,113 @@
+﻿Universal ID,Audio Tour ID,Name,Room,Visits,Average Time,Tags,Comments,Average Position,Floor
+8,126,Sloane astrolabe,1,1,72,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1596, 1181]",1
+9,127,Piranesi Vase,1,2,82,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['photos'],"[1610, 1150]",1
+16,141,Serpent mosaic,27,1,233,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 1, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1612, 774]",1
+17,142,Mosaic mask,27,1,168,"{'sp': 1, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['intended'],"[840, 1162]",1
+29,161,Crystal skull,24,3,63,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['pictures, people hanging back to look and being left behind']","[1294, 862]",1
+30,162,Easter Island statue,24,10,242,"{'sp': 0, 'eng': 4, 'deng': 2, 'b': 0, 'st': 3, 'dt': 0, 'fa': 0, 'bg': 0}","['Backing people in corner out of the way to explain', 'couple of people on phones, engaged expressions and some nodding along', 'group standing back by stairs', 'Standing back from Moa; some pics', 'pictures, very out of way of path around item, people looking away/on phones', 'photos', 'moved from back to front of item', 'off to side of Moai']","[1349, 825]",1
+32,165,Cradle to Grave,24,5,69,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","[""members asking Q's""]","[1326, 714]",1
+46,186,Benin bronzes,25,2,265,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 1, 'fa': 0, 'bg': 0}",['one member waving over another who is trying to find the group'],"[863, 1024]",3
+47,192,House Frontal Pole Haida,4,3,89,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['Introducing another guide/aide', 'pictures']","[1480, 950]",1
+48,201,Scarab,4,9,116,"{'sp': 1, 'eng': 2, 'deng': 1, 'b': 1, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 1}","['put people in corner again, one group member touched sarcophagus', 'one person went to take pcitures of other objects around', ""Some school groups trying to look but can't"", 'photos, one member sitting aside', 'talking, nodding']","[1084, 900]",1
+49,202,Bronze figure of seated cat,4,6,90,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 1, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1102, 1024]",1
+50,203,Bust of Ramesses the Great,4,15,258,"{'sp': 1, 'eng': 5, 'deng': 1, 'b': 0, 'st': 3, 'dt': 4, 'fa': 0, 'bg': 1}","['Lots of pictures, someone looking around rest of room, only one of two paths could be used', 'out of way because other group is in front of item, ipad used to show picture', 'ipad use', 'touching artifact; phones', 'in the way around one side of the sarcophagus', 'earlier guide talking routing & timing (I think) with current guide', ""group is noticeably easier to follow than yesterday's group due to less traffic"", 'photos', 'ipad used', 'Some members sitting down', 'photos', 'for last 2 items they have been clogging side of room', 'photos', 'iPad usage', 'pics; guide is animated and gesturing']","[1086, 1065]",1
+51,204,Rosetta stone,4,15,189,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 5, 'st': 3, 'dt': 2, 'fa': 0, 'bg': 0}","['told everyone to look at object individually', 'in front of stone', 'guide is animated—talking to younger members; standing few paces back from RS; walks couple of paces to talk more', 'rosetta stone was very busy', 'tight squeeze through doorway; many reaching up with phones; cleared up after a bit, though; passing out maps? explaining other part of exhibit right by RS', 'right in front of stone', 'standing by rosetta stone', 'group trying to see stone from front, being blocked by  crowd', 'up in front of stone, pictures', 'part of large amount of people in front of stone', 'off in unoccupied corner of room', 'group bunched at corner of RS room']","[1095, 1148]",1
+52,205,Head and Arm of a Statue of Amenhotep III,4,3,308,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 2, 'fa': 0, 'bg': 0}","['standing in part of path', 'some sitting on bench', 'in path']","[1071, 1278]",1
+53,206,False door of Ptahshepses,4,2,166,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 2, 'st': 0, 'dt': 1, 'fa': 0, 'bg': 0}",[],"[1080, 1348]",1
+54,207,List of Kings,4,1,138,"{'sp': 0, 'eng': 0, 'deng': 1, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['one kid messing with their parent'],"[1106, 1406]",1
+56,212,Balawat gates,6,1,185,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",['in the way of people entering room 7'],"[1014, 1499]",1
+57,213,Reliefs from North-West Palace,7-8,4,173,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 0, 'st': 3, 'dt': 0, 'fa': 0, 'bg': 0}","['groups tend to congest this room', 'effort to make the group obstruct least amount of space possible', 'members grouping on one side; one member leaving for another room; others hanging back for pictures', 'photos']","[1018, 1327]",1
+58,214,Lion hunt reliefs,10,8,221,"{'sp': 1, 'eng': 2, 'deng': 0, 'b': 2, 'st': 5, 'dt': 2, 'fa': 0, 'bg': 0}","['lots of photos, groups tend to congest this room', 'stopped at dead end pushing against end of walking area', 'clumped', 'group is pushed to one side; guide looks animated and excited; group is pushed to one side', 'in the way of way into reliefs, creating an entire blockade with another group on other wall of room', 'congregating by projector show', 'photos, couple people went to sit down']","[909, 1351]",1
+59,215,Siege of Lachish,10,2,223,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",['person in group asked them to push in'],"[960, 1292]",1
+60,216,Winged bull,10,14,135,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 2, 'st': 5, 'dt': 0, 'fa': 0, 'bg': 0}","['packed into area that does not cause traffic, before moving into a part that did', 'split up to quickly look at item', 'short explaination, clump in middle of entrance', 'existing tour group is blocking Assyria entrance; guide tells members to get to the side', 'room 23 was extremely busy such that the entire flow of traffic was blocked for everyone', 'grouped left, then grouped right', 'lots of pics', 'spread along closed entrance of room 10', 'guide stood in center and asked group to push towards walls of entrance', 'in the midldle of entrance']","[937, 1210]",1
+61,217,Reliefs from South-West Palace,9,1,208,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['engaged expression, following hand motions']","[1001, 1033]",1
+62,218,Human-Headed Winged Bull,7-8,3,188,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['pictures', 'in middle of doorway, nobody tried to pass through', 'In the way of door to room 7, Assyria exhibits are closed, iPad used to show artifacts']","[999, 1159]",1
+71,242,Nereid monument,17,10,170,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 1, 'fa': 0, 'bg': 0}","['all sat down listening', 'many sitting on a bench', 'many sat down here', 'Guide talking with audience', 'in middle of room in circle']","[853, 1138]",1
+72,243,Lely's Venus,24,6,107,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 1, 'fa': 0, 'bg': 0}","['guide stands behind group while members look at statue', ""one kid took a spill, guide didn't notice"", 'creating blockage on one side of room']","[924, 1157]",1
+92,322,Korean sarangbang,67,1,33,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1289, 164]",1
+94,325,Tea Bowl With a Sexagenary Cycle Year,67,1,41,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1381, 182]",1
+96,331,The David vases,95,2,59,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 1, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}","['photos, group wrapping around whole case of item']","[1234, 192]",1
+98,334,Porcelain moon-shaped flask,95,1,118,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1118, 166]",1
+100,343,Rock Art and Gongs,65,1,215,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1373, 749]",2
+101,351,Label from King Den's sandals,64,1,217,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1333, 757]",2
+102,352,Predynastic Egyptian burial,64,7,332,"{'sp': 1, 'eng': 0, 'deng': 1, 'b': 1, 'st': 3, 'dt': 0, 'fa': 0, 'bg': 0}","['at side of room slowing people going along that side', 'Through Egypt; guide suggested to us that teachers should calm down their students']","[1280, 780]",2
+105,362,Ship model,62-3,1,149,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 1, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}","['making a group wrap around them single-file, blocking sight for that group']","[1301, 786]",2
+113,392,Record of food supplies,56,3,329,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 1, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['Someone left to take a phone call, ringer on']","[1099, 825]",2
+114,393,Ram in the thicket,56,4,315,"{'sp': 1, 'eng': 0, 'deng': 0, 'b': 1, 'st': 1, 'dt': 1, 'fa': 0, 'bg': 0}","['some poeple hanging out in path with some in alcove', 'Group is crowding around back to let others look at the front', 'Security told them to pack in', 'packed in between cases of artifacts, group let to explore area after explanation']","[1176, 862]",2
+115,395,Game of Ur,56,5,199,"{'sp': 0, 'eng': 0, 'deng': 1, 'b': 1, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['person on phone'],"[1180, 862]",2
+117,402,Map of the World,55,1,193,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1291, 821]",2
+119,404,Library of Ashurbanipal,55,2,264,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 1, 'st': 0, 'dt': 1, 'fa': 0, 'bg': 0}","['people blocking main way out, other visitors have to go around a display to get out']","[1281, 840]",2
+123,424,Cyrus cylinder,52,1,426,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 1, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1390, 887]",2
+128,453,Hinton St Mary mosaic,49,1,88,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",['creating slight blockage'],"[1401, 1309]",2
+133,465,Sutton Hoo,41,1,151,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1360, 1485]",2
+138,502,The Lewis chessmen,40,2,158,"{'sp': 0, 'eng': 0, 'deng': 1, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['some sitting on bench'],"[1300, 1470]",2
+147,542,The Portland Vase,70,1,184,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[867, 1261]",2
+152,N/A,North Entrance Restrooms,uknown,3,351,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 1, 'bg': 0}","[""Women's restroom line"", 'restroom stop']","[1379, 620]",1
+153,N/A,Palm-Leaf Column of Ramses II,uknown,3,104,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1107, 914]",1
+154,N/A,Sarcophagus of Nectanebo II,uknown,5,104,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 1, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 1}","['leaning against to look/get a picture of inside', 'photos, pointing at and looking in sarcophagus']","[1100, 978]",1
+155,N/A,Decorations of Assyrian Palaces,uknown,3,154,"{'sp': 0, 'eng': 2, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 1}","['pictures', 'touching artifact', 'pictures']","[1031, 1102]",1
+156,N/A,Gateway Guardians,uknown,2,160,"{'sp': 1, 'eng': 1, 'deng': 1, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['lots of pictures, couple of members broke out to examine rest of room', 'one member on their phone']","[1064, 1475]",1
+157,N/A,Tactile model of Parthenon,uknown,7,176,"{'sp': 0, 'eng': 2, 'deng': 0, 'b': 1, 'st': 2, 'dt': 1, 'fa': 0, 'bg': 0}","['group crowding by door', 'around scale model of parthenon', 'Group looking inside Parthenon model', 'photos']","[786, 1094]",1
+158,N/A,Elgin Marbles,uknown,16,332,"{'sp': 1, 'eng': 2, 'deng': 1, 'b': 0, 'st': 3, 'dt': 0, 'fa': 0, 'bg': 1}","['ipad used to show pictures', 'standing back a good bit, however; intended split', 'prop, laminated picture', 'pictures taken, guide using pointer that was not touching the item', 'one member on their phone', 'Q&A, laughter', 'pointing at statues but not close to them']","[718, 1117]",1
+159,N/A,East Pediment,uknown,13,272,"{'sp': 1, 'eng': 3, 'deng': 1, 'b': 2, 'st': 0, 'dt': 2, 'fa': 0, 'bg': 0}","['Backed off away from pieces while area with them was busy', 'moved closer to pieces when area cleared, still not in way of anyone', 'lots of pictures', 'group photo taken', 'photos', 'photos', 'group moved to back of statues to get a closer look (clockwise circle)', 'some kids horsing around', 'couple went to look at other sculptures', 'Some visitors waited until group moved to look']","[732, 989]",1
+160,N/A,Reading Room,uknown,6,139,"{'sp': 2, 'eng': 2, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['Group members explored room separately', 'ipad used to show pictures', 'photos, group spread out in room', 'guide waited outside for group members to come out of library', 'photos/videos of room', 'Walked into RR to observe without talking']","[1339, 1197]",1
+161,N/A,Touch Rosetta Stone,uknown,3,364,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 0, 'st': 1, 'dt': 1, 'fa': 0, 'bg': 0}","['blocking one direction around benches, waiting for another group to finish with item, instance of conversation between guide and group member', 'few people broke off to look at other items in area']","[1576, 1070]",1
+162,N/A,Anglo-Saxon sandstone shaft from a cross,uknown,2,16,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",['couple of people out in hall in the way'],"[1546, 1181]",1
+163,N/A,Plaster Cast from Persepolis,uknown,1,374,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",['collective creating a funnel towards one doorway that is making people going in/out brush against each other'],"[1377, 867]",2
+164,N/A,Mosaic Pavements,uknown,3,68,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[885, 843]",2
+165,N/A,Amitabha Buddha,uknown,6,85,"{'sp': 1, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}","['Slowing traffic until pushed towards wall by guide', 'intro room 33, end of tour']","[1300, 406]",1
+166,N/A,Block Statue of Teti,uknown,1,132,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1052, 1157]",1
+167,N/A,Sarcophagus of the 'God's Wife' Ankhnegneferibra,uknown,1,59,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1088, 928]",1
+168,N/A,Female Sphinx,uknown,2,65,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1094, 886]",1
+169,N/A,North Song Wu Wares,uknown,2,234,"{'sp': 1, 'eng': 0, 'deng': 0, 'b': 0, 'st': 2, 'dt': 0, 'fa': 0, 'bg': 0}",['split into small groups'],"[1189, 180]",1
+170,N/A,Yuan and Early Ming Jingdezhan,uknown,1,29,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1148, 182]",1
+171,N/A,Empire and Slavery,uknown,1,124,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1607, 1130]",1
+172,N/A,Metopes,uknown,5,116,"{'sp': 1, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 1, 'fa': 0, 'bg': 0}",['one went to sit down'],"[679, 985]",1
+173,N/A,West Great Court Restroom,uknown,1,443,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['switching guides, bathroom break']","[1168, 1210]",1
+174,N/A,Sek Hmet,uknown,1,149,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['pics'],"[1615, 1046]",1
+175,N/A,Statues of King Senwosret III,uknown,1,132,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1061, 1326]",1
+176,N/A,Pleasure Gardens,uknown,1,44,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[916, 1221]",1
+177,N/A,Chenghua Doucai,uknown,2,140,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['people taking photos at previous item'],"[1120, 175]",1
+178,N/A,Qing Falanghua Porcelain,uknown,1,252,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['some are sitting down'],"[1058, 177]",1
+179,N/A,Anubis Standing,uknown,1,23,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1346, 906]",1
+180,N/A,Venus,uknown,4,65,"{'sp': 0, 'eng': 3, 'deng': 0, 'b': 1, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}","['pictures, blocking view for other group visiting work', 'photos of item in focus & Athena bust', 'photos']","[935, 1168]",1
+181,N/A,The God Hermes,uknown,2,39,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['photos'],"[896, 1176]",1
+182,N/A,Hellenistic Jewellery,uknown,1,71,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['pictures'],"[970, 1079]",1
+183,N/A,Hellenistic Stones,uknown,1,17,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[970, 1079]",1
+184,N/A,Colossal Statue of a Persian Rider on a Rearing Horse,uknown,1,355,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[935, 966]",1
+185,N/A,Mummies of the Ptolemaic and Roman Periods,uknown,1,19,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 1}",['stopped at mummy next to path to stairway in 63'],"[1169, 751]",2
+186,N/A,Northern Song Ru Wares,uknown,1,176,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1199, 182]",1
+187,N/A,Yuan and early Ming jingdezhen,uknown,1,111,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1181, 172]",1
+188,N/A,Two flasks with dragons,uknown,1,93,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1156, 162]",1
+189,N/A,Qing wucai porcelains,uknown,1,86,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['photos'],"[1118, 187]",1
+190,N/A,Qing falangcai porcelains,uknown,1,90,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1128, 155]",1
+191,N/A,Jun wares,uknown,1,91,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1145, 196]",1
+192,N/A,Longquan green-glazed wares,uknown,1,821,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['split up into egypt rooms, guide waited in mesopotamia and talked to some members']","[1184, 195]",1
+193,N/A,Marble Statue of Apollo Holding a Kithara,uknown,1,51,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[935, 1112]",1
+194,N/A,General Horemheb and Wife,uknown,1,70,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 1, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['blocking view for other tour group'],"[1064, 1097]",1
+195,N/A,East Great Court Restrooms,uknown,1,292,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1450, 1214]",1
+196,N/A,A youth with his horse and dog,uknown,2,38,"{'sp': 0, 'eng': 2, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['photos', 'photos']","[896, 1185]",1
+197,N/A,The goddess Sekhmet,uknown,1,108,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1058, 1218]",1
+198,N/A,Tomb relief of Khnumhotep,uknown,1,81,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1058, 1383]",1
+199,N/A,Statue of King Tutankhamun II,uknown,1,14,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1086, 1291]",1
+200,N/A,Sarcophagus of Hapmura,uknown,1,16,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1081, 951]",1
+201,N/A,Marble statue of a youth on horseback,uknown,1,64,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['sound systems collected and tour ended'],"[1519, 1265]",1
+202,N/A,Lesser Podium Frieze,uknown,2,302,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[852, 1169]",1
+203,N/A,Figure of Nandi,uknown,1,20,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",['right by entrance of room'],"[1214, 858]",1
+204,N/A,Shabaqo Stone,uknown,1,73,"{'sp': 0, 'eng': 0, 'deng': 1, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['person on phone'],"[1106, 997]",1
+205,N/A,King Hormheb with Amun-Ra,uknown,1,92,"{'sp': 1, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['couple people took photos of front of previous item'],"[1061, 1063]",1
+206,N/A,Statue of Tutankhamun,uknown,1,119,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1061, 1063]",1
+207,N/A,Sculpture of King Thutmose III,uknown,1,48,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1103, 1119]",1
+208,N/A,Grand Entrances,uknown,1,73,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[968, 1215]",1
+209,N/A,Crossing the Threshold,uknown,1,74,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[933, 1246]",1
+210,N/A,Royal Pursuits,uknown,1,37,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[894, 1261]",1
+211,N/A,God or Athlete,uknown,1,34,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[899, 1184]",1
+212,N/A,Dionysos Wearing an Ivy Wreath,uknown,1,40,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[899, 1184]",1
+213,N/A,Three Nereids,uknown,2,114,"{'sp': 0, 'eng': 1, 'deng': 1, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}","['faces down, one on phone', 'photos, group picture']","[852, 1177]",1
+214,N/A,Buddhism in Korea,uknown,1,101,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1274, 181]",1
+215,N/A,Late Josom,uknown,1,31,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1342, 163]",1
+216,N/A,Wooden Coffin,uknown,1,529,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",[],"[1278, 761]",2
+217,N/A,Lintel 24,uknown,1,150,"{'sp': 1, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['couple of people broke off to look at rest of room'],"[1569, 740]",1
+218,N/A,Lintel 25,uknown,1,63,"{'sp': 1, 'eng': 0, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['people still broken off'],"[1580, 740]",1
+219,N/A,Plaster Casts from Egypt,uknown,1,35,"{'sp': 0, 'eng': 0, 'deng': 0, 'b': 0, 'st': 1, 'dt': 0, 'fa': 0, 'bg': 0}",['somewhat in way of people going up stairs'],"[1601, 839]",1
+220,N/A,The Sutton Hoo Ship Burial,uknown,1,341,"{'sp': 0, 'eng': 1, 'deng': 0, 'b': 0, 'st': 0, 'dt': 0, 'fa': 0, 'bg': 0}",['many pics'],"[1374, 1447]",2
