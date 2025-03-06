@@ -260,7 +260,7 @@ while os.path.exists(f"path{i+1}.csv"):
             new_R_data = new_R.load()
 
             # 55 oppacity mask to isolate a one pixel wide path independent of the width of the path drawn in Inkscape. 
-            # This threshold works for a spline drawn with HSLA values of 120, 100, 50, 0, with opacity set to 50% in Inkscape.
+            # This threshold works for a spline drawn with HSLA values of 120, 100, 50, 0, with opacity set to 50% in Inkscape and a 0.915 pixel width.
             # If these values are changed, the threshold may need to be adjusted by trial and error, modifying this threshold and looking at the resulting mask until a 1 pixel wide path is created.
             mask = pathSource[A].point(lambda i: i > 55 and 255) 
             #mask.save(f"mask{i+1}-{j+1}.png") # If you want to save the mask for debugging
@@ -287,6 +287,9 @@ while os.path.exists(f"path{i+1}.csv"):
                 if(int(stop[4]) == j+1): # If the stop is on the current map
                     x, y = int(stop[2]), int(stop[3]) # Get the coordinates of the stop
                     t = stop[0] # Get the time spent at the stop
+
+                    # This portion of the script roughly allows for the heatmap to be roughly applied within the various icons on the map, representing stops on stairwells or at restrooms.
+                    # This is also why the no_icon versions of the map exist, so if a stop is located within a white part of the map, it can be identified as an icon stop.
                     if(new_R_data[x, y] > 250): # If the pixel is white (i.e. is in a stairwell, shop, etc.)
                         xCorner = 0
                         yCorner = 0
@@ -301,8 +304,8 @@ while os.path.exists(f"path{i+1}.csv"):
                         for dy in range(-30, 0):
                             for dx in range(-30, 0):
                                 BMatrix[yCorner + dy][xCorner + dx][j] -= RPerSec * t
+
                     else: # If the pixel is black (i.e. is within a room)
-                        
                         # Same implementation as the path, but with a different, larger group width
                         for dy in range(int(-groupWidthStopping/2), int(1 + groupWidthStopping/2)):
                             for dx in range(int(-groupWidthStopping/2), int(1 + groupWidthStopping/2)):

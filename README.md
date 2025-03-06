@@ -29,23 +29,16 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -53,7 +46,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project is the impementation of a method for organizing and visualizing observation data on specific groups accross a museum. Included is the data from observing 16 international tour groups at the British Museum and the generated visuals. These visuals include a heatmap showing where the groups spend the most time, and maps with dots showing the frequency of various behaviors of interest at specific locations.
+This project is the impementation of a method for organizing and visualizing observation data on specific groups accross a museum. Included is the data from observing 16 international tour groups at the British Museum and the generated visuals. These visuals include a heatmap showing where the groups spend the most time, and maps with dots showing the frequency of various behaviors of interest at specific locations. 
+
+Some effort has been made to ensure this implementation is relatively flexible, and can be adapted to observing groups and their behaviors throughout any space that can be mapped.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,37 +56,21 @@ This project is the impementation of a method for organizing and visualizing obs
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you aren't familiar with Python, this section will get you started.
+
+1. Set up a python editor and interpreter. I recommend following the [quick start guide](https://code.visualstudio.com/docs/python/python-quick-start) for VS Code.
+2. From here you can download the project from this github page, unzip it, and open it in VS Code. Alternatively, if you intend to make significant changes or additions to the script, you can [set up Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) and clone the repository.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* Python Imaging Library
+Before you run the code, you'll have to download the Python Imaging Library by entering the following lines using command prompt:
+
   ```sh
-  pip install pillow
+  python3 -m pip install --upgrade pip
+  python3 -m pip install --upgrade Pillow
   ```
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/ANBlanchard3/BM_Heatmap.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin ANBlanchard3/BM_Heatmap
-   git remote -v # confirm the changes
-   ```
+The code should now run. If you are having issues with packages, refer to the [Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/) or the [Basic Installation Page](https://pillow.readthedocs.io/en/latest/installation/basic-installation.html) for the Python Imaging Library.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,82 +78,90 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+The script itself is the `HeatmapGenerator.py` file. Running it will generate a series of output files 
+Included in the project files are files that are necessary for the code to run, files containing data, and files that are output.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+#### Required Files
+The files that are required for the code to run are the maps:
+`British_Museum_map_no_icons-1.png` 
+`British_Museum_map_no_icons-2.png`
+`British_Museum_map_no_icons-3.png`
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+and
+
+`British_Museum_map_room_numbers-1.png`
+`British_Museum_map_room_numbers-2.png`
+`British_Museum_map_room_numbers-3.png`
+
+The code is fundamentally structured for multiple maps, but can easily be modified for more or fewer maps (including 1 map). The maps without icons are used to roughly display a heatmap within the stairwell or restroom icons on the British Museum map. This particular implementation assumes that stops located on non white parts of the map are normal stops, and stops on white parts of the map are icon stops. The naming structure ending in the `-i` where i is the map number is important for the function of the code.
+
+The other required file is the `Unified Artifact Index.csv`. The artifacts in this file have unique audio tour IDs that were convenient for consistently and quickly noting down stop locations during observation. All artifacts that are referred to by this audio tour ID must be in this list. Artifacts in the list that are not visited will be filtered out. Artifacts that are referred to by a number and are not in this list are ignored and a warning is printed.
+
+#### Data Files
+All files containing data start with path. Each observed group has 1 .csv file, and a .png file for each map the group travelled on.
+ Every observed group in the included data travelled on two maps, with only group 16 travelling on the third map. Thus, all of the data for group 16 is in the files:
+ `path16.csv`
+  `path16-1.png`
+  `path16-2.png`
+  `path16-3.png`
+
+Once again, the numbering `pathk-i ` format is important, where k is the group number (starting at 1) and i is the established map number.
+
+#### Output files
+Output files include:
+
+`engmap-i.png` (maps of engagement at artifacts across the Museum)
+
+`heatmap-i.png` (heatmaps)
+
+`impactheatmap-i.png` (maps of ITG visitor impact at artifacts across the Museum)
+
+`impactmap-i.png` (heatmaps of this ITG visitor impact)
+
+`popmap-i.png` (maps of the most popular artifacts)
+
+`Popular Artifacts.csv` (list of the most popular artifacts containing data by artifact)
+
+`Stopped Artifacts.csv` (list of all of the visited artifacts containing data by artifact)
+
+`stoppedmap-i.png` (maps of all of the visited artifacts)
+
+These files can be safely deleted and will be re-generated or updated every time the script is run.
+
+### Data Organization and Generation
+To begin with the path .csv files. For the duration of the project these files were kept as Excel files and converted to a CSV UTF-8 format for easy processing. Some understanding of the way the script parses stops from this file is useful when transcribing data. Starting from the first lap, the script will first look at the `X Location` column, looking for the first stop. Once a lap is reached with a location, it will look at the `Travel/Dwell` column for future laps until a `T`. Thus, a `D` in the following row indicates the group is continuing to dwell in the same location at the same artifact, and a `T` indicates the group has started moving again and the script can begin looking for the next stop. The only other consideration is when recording stops without a location. This was done when the group disperses. In these cases, it is important a `T` is recorded in the row prior to the dispersion. If the group was dwelling at an object, and then dispersed without travelling, there should be a 0 second lap prior to the dispersion lap. This should be set to a `T`. For more details on how the raw data was gathered during observations, refer to the Methods chapter of our report.
+
+Other considerations are:
+* the time in the `Dwell/Travel Time` column can be in h:mm:ss or mm:ss format. 
+* Object names must be consistent from path to path
+* Object names or portions of names in parentheses are ignored. Stops that did not take place at particular artifacts should be put in parentheses.
+* The X and Y Locations correspond to the X, Y pixel coordinate of the approximate location the group stopped on the museum map.
+* The `floor` column refers to the map the stop was on, not the actual floor / level of the Museum.
+* The tags should be listed with a single space between them.
+
+A good example for a long and relatively complex path can be found in `path9.csv`. This file can be opened in Excel for easy viewing.
+
+To generate the path .pngs, Inkscape was used. The museum map was opened ensuring it opened in its default size. Then, a spline path was drawn onto the map digitizing the path drawn during observation. This once complete, this path was then isolated from the map and saved as a .png, once again ensuring the size of the resulting .png matched the original map. The parameters used when drawing the path were drawn with HSL values of 120, 100, 50 with opacity set to 50% and a 0.915 pixel width.
+
+In order to add more groups to the dataset, simply add more path .csv and .png files following the established naming convention. The script will iterate through .csv files until the next cannot be found. Then, it will iterate through the .png files for that group in the same way.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/ANBlanchard3/BM_Heatmap/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/ANBlanchard3/BM_Heatmap/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ANBlanchard3/BM_Heatmap" alt="contrib.rocks image" />
-</a>
-
-
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Email: anblanchard3@gmail.com
 
 Project Link: [https://github.com/ANBlanchard3/BM_Heatmap](https://github.com/ANBlanchard3/BM_Heatmap)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
