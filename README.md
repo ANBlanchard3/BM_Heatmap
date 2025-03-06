@@ -4,25 +4,23 @@
 <br />
 <div align="center">
   <a href="https://github.com/ANBlanchard3/BM_Heatmap">
-    <img src="images/Project Picture.jpg" alt="Logo" width="80" height="80">
+    <img src="Project Picture.jpg" alt="Logo" width="540" height="469">
   </a>
-
-<h3 align="center">project_title</h3>
+<br />
+<br />
+<h1 align="center">International Tour Groups at the British Museum</h1>
 
   <p align="center">
-    project_description
+    The project represents the work of undergraduate students at Worcester Polytechnic Institute on behalf of the British Museum. The British Museum, located in Bloomsbury, London, attracts millions of international visitors, many of which experience the Museum through private tours. Despite the prevalence of these international tour groups, their behaviours, impacts, and needs were not fully understood. This study developed methods for recording and visualizing group behaviours and impacts across the Museum. Sixteen ITGs were observed to construct a typical visit, and five ITG guides were interviewed to understand their experiences. Observations revealed that ITGs visit similar items, take similar paths, and impact other visitors. From these findings, the authors recommended specific changes to the Museum’s group visitation guidelines and the design of galleries to improve the experience of all visitors. For details, see the full report and published project below:
+    <br />
+    <br />
+    <a href="https://wp.wpi.edu/london/projects/2025-projects-winter/british-museum/"><strong>Read our Full Report »</strong></a>
+    <br />
     <br />
     <a href="https://github.com/ANBlanchard3/BM_Heatmap"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/ANBlanchard3/BM_Heatmap">View Demo</a>
-    &middot;
-    <a href="https://github.com/ANBlanchard3/BM_Heatmap/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/ANBlanchard3/BM_Heatmap/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -55,28 +53,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `ANBlanchard3`, `BM_Heatmap`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+This project is the impementation of a method for organizing and visualizing observation data on specific groups accross a museum. Included is the data from observing 16 international tour groups at the British Museum and the generated visuals. These visuals include a heatmap showing where the groups spend the most time, and maps with dots showing the frequency of various behaviors of interest at specific locations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -88,9 +67,9 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Python Imaging Library
   ```sh
-  npm install npm@latest -g
+  pip install pillow
   ```
 
 ### Installation
